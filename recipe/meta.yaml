@@ -1,13 +1,13 @@
 {% set name = "forcefield-utilities" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-   url: https://github.com/mosdef-hub/forcefield-utilities/archive/{{ version }}.tar.gz
-   sha256: 1c025b522ec9b80cca761e07229029c14f73dd1265ae49046bc88eed014b83ad
+  url: https://github.com/mosdef-hub/forcefield-utilities/archive/{{ version }}.tar.gz
+  sha256: 34a656e1899f12566a6206650dccb4a788684d3ce28c23a6d6bbc96bbee8b776
 
 build:
   noarch: python
@@ -35,9 +35,9 @@ test:
 
 about:
   home: https://github.com/mosdef-hub/forcefield-utilities
-  summary: 'Utility functions and classes necessary to convert xml forcefields to foyer and gmso Forcefields'
+  summary: Utility functions and classes necessary to convert xml forcefields to foyer and gmso Forcefields
   description: |
-      Utility functions and classes necessary to convert xml forcefields to foyer and gmso Forcefields
+    Utility functions and classes necessary to convert xml forcefields to foyer and gmso Forcefields
   license: MIT
   license_family: MIT
   license_file: LICENSE
