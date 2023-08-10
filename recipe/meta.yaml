@@ -1,5 +1,5 @@
 {% set name = "forcefield-utilities" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/mosdef-hub/forcefield-utilities/archive/{{ version }}.tar.gz
-  sha256: 16968a34f7036f73c9551109faae9d921dad7b1e60f6f0a0a39661f5436a861e
+  sha256: 772f696f493354ed5b7436baf64cff8878d18b9c91fc7ad0621bb519522e8ba7
 
 build:
   noarch: python
